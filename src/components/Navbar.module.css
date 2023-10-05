@@ -5,8 +5,35 @@
   box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
   padding: 20px 16px;
   box-sizing: border-box;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.inactive {
+  text-decoration: none;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login {
+  background-color: #eee;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+}
+.login:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
