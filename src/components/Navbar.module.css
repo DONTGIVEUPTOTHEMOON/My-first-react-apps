@@ -2,9 +2,10 @@
   height: auto;
   width: 100%;
   background-color: white;
-  box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.957);
   padding: 20px 16px;
   box-sizing: border-box;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +22,7 @@
 }
 
 .active {
-  color: blue;
+  color: #6666dc;
   font-weight: bold;
   text-decoration: none;
 }
@@ -33,7 +34,8 @@
   border: none;
   border-radius: 6px;
 }
+
 .login:hover {
-  background-color: lightgray;
+  background-color: #6666dc;
   cursor: pointer;
 }
