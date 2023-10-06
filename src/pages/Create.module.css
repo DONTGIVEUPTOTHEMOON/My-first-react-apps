@@ -3,8 +3,19 @@
   flex-direction: column;
   width: max-content;
   height: auto;
-  background-color: #6666dc;
-  padding: 10px 8px;
+  background-color: #6666dc24;
+  margin-top: 90px;
+  padding: 70px 70px;
+  border-radius: 160px;
+  gap: 10px;
+  color: aliceblue;
+  box-shadow: 0 0 30px 10px #ffffff;
+}
+
+.buttonforCreated {
+  background-color: #eee;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: none;
   border-radius: 6px;
-  gap: 5px;
 }

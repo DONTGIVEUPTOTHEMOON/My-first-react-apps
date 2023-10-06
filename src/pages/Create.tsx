@@ -27,11 +27,23 @@ const Create = () => {
   return (
     <form className={classes.postForm} onSubmit={handleSubmit}>
       <label>Title</label>
-      <input type="text" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} required />
+      <input
+        className={classes.buttonforCreated}
+        type="text"
+        value={newTitle}
+        onChange={(e) => setNewTitle(e.target.value)}
+        required
+      />
       <label>Body</label>
-      <input type="text" value={newBody} onChange={(e) => setNewBody(e.target.value)} required />
+      <input
+        className={classes.buttonforCreated}
+        type="text"
+        value={newBody}
+        onChange={(e) => setNewBody(e.target.value)}
+        required
+      />
 
-      <button type="submit" disabled={isSubmitting}>
+      <button className={classes.buttonforCreated} type="submit" disabled={isSubmitting}>
         {isSubmitting ? 'Submitting...' : 'Submit'}
       </button>
     </form>
