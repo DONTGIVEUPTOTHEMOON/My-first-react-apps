@@ -1,0 +1,42 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  padding: 20px 16px;
+  border-radius: 10px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: auto;
+  background-color: #6666dc24;
+  margin-top: 90px;
+  padding: 85px 85px;
+  border-radius: 160px;
+  gap: 10px;
+  color: aliceblue;
+  box-shadow: 0 0 30px 10px #ffffff;
+}
+.postForm {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: auto;
+  background-color: #6666dc24;
+  margin-top: 90px;
+  padding: 80px 80px;
+  border-radius: 160px;
+  gap: 10px;
+  color: aliceblue;
+  box-shadow: 0 0 30px 10px #ffffff;
+}
+
+.buttonforCreated {
+  background-color: #eee;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+}

@@ -33,6 +33,7 @@
   box-sizing: border-box;
   border: none;
   border-radius: 6px;
+  text-decoration-line: none;
 }
 
 .login:hover {
